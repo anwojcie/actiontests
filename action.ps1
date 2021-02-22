@@ -1,0 +1,4 @@
+Write-host "from pwsh with love"
+Get-ChildItem -Recurse
+Get-ChildItem env:* | fl
+Get-Module -ListAvailable
